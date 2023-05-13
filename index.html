@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/bulma.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSList</title>
+</head>
+<body>
+    <header class="hero is-dark">
+        <div class="hero-body has-text-centered">
+            <p class="title is-1">TS List</p>
+            <p class="sutitle">Write down your tasks.</p>
+        </div>
+    </header>
+    <main class="hero is-black">
+        <div class="hero-body">
+            <div align="center">
+                <i>Try adding some tasks onto the list...</i>
+                <div class="field has-addons" style="justify-content: center;">
+                    <div class="control">
+                        <input type="text" class="input" id="task" placeholder="Type your task here">
+                    </div>
+                    <div class="control">
+                        <input type="button" class="button is-success" id="doneButton" value="Done">
+                    </div>  
+                </div>
+            </div>
+            <hr>
+            <div id="tasks">
+            </div>
+        </div>    
+    </main>
+    <footer class="footer hero is-dark">
+        <div class="hero-body has-text-centered">
+            <div class="block">
+                <p>&copy; 2023 - This project is under <a href="https://opensource.org/license/mit/"><u>MIT License</u></a>.</p>
+            </div>
+            <p>Made with ❤️ in Brazil</p>
+            <p class="subtitle">By <strong>Marcio Dantas</strong></p>
+            <a href="https://github.com/marc-dantas" class="button is-small is-black">My github</a>
+            <a href="mailto:marcio.dantas.pro@outlook.com" class="button is-small is-black">My e-mail</a>
+        </div>
+    </footer>
+    <script src="build/index.js"></script>
+</body>
+</html>
